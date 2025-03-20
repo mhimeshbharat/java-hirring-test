@@ -4,11 +4,29 @@ Given an array of integers ```nums```, return the least index value up to which 
 
 **Example 1:**
 ```
+Input: nums = [3,3]
+Output: 0
+```
+
+**Example 2:**
+```
+Input: nums = [2,5,2]
+Output: 1
+```
+
+**Example 3:**
+```
+Input: nums = [1,0,6]
+Output: 2
+```
+
+**Example 4:**
+```
 Input: nums = [1, 5, 3, 7, 3, 7, 5, 1]
 Output: 3
 ```
  
-**Example 2:**
+**Example 5:**
 ```
 Input: nums = [1, 5, 3, 7, 3, 7, 5, 1, 9, 2, 4, 6, 8, 0, 9, 2, 4, 6, 8, 0]
 Output: 13
